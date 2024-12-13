@@ -1,0 +1,9 @@
+Êþº¾   A =
+      java/lang/Object <init> ()V	  	 
+   ConexaoBancoDados/conexao conn Ljava/sql/Connection;  "jdbc:mysql://localhost:3306/nomeBD  root   
+      java/sql/DriverManager getConnection M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;  java/sql/SQLException	       java/lang/System out Ljava/io/PrintStream; " &Erro na conexÃ£o com o Banco de Dados!
+ $ % & ' ( java/io/PrintStream println (Ljava/lang/String;)V
+  * +  printStackTrace url Ljava/lang/String; ConstantValue user password Code LineNumberTable LocalVariableTable this LConexaoBancoDados/conexao; 
+getConexao ()Ljava/sql/Connection; e Ljava/sql/SQLException; StackMapTable 
+SourceFile conexao.java !       , -  .      / -  .      0 -  .     
+          1   /     *· ±    2        3        4 5   	 6 7  1   Œ     )² Ç ¸ ³ ² °² °K² !¶ #*¶ )°            2   "               #  '  3       8 9   :    C   ;    <
